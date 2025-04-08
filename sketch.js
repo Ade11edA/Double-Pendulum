@@ -55,10 +55,11 @@ function changeConditions() {
   const v1 = parseFloat(document.getElementById("velocity1Input").value);
   const v2 = parseFloat(document.getElementById("velocity2Input").value);
   showBackground = document.getElementById("showBackground").checked;
-  console.log(showBackground);
   angle1 = a1 * (Math.PI / 180);
   angle2 = a2 * (Math.PI / 180);
   angularVelocity1 = v1;
   angularVelocity2 = v2;
+  length1 = parseFloat(document.getElementById("length1Input").value);
+  length2 = parseFloat(document.getElementById("length2Input").value);
   
 }
